@@ -14,8 +14,8 @@ import CloseButton from './CloseButton'
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-	alignItems: 'center',
-	justifyContent: 'space-between'
+    alignItems: 'center',
+    justifyContent: 'space-between'
   }
 })
 
@@ -35,9 +35,9 @@ export const HeaderModal = (props: HeaderModalProps) => {
     withCloseButton,
     closeButtonImage,
     closeButtonStyle,
-	closeButtonImageStyle,
-	headerTitle,
-	headerStyle,
+    closeButtonImageStyle,
+    headerTitle,
+    headerStyle,
     onClose,
   } = props
   return (
@@ -48,8 +48,8 @@ export const HeaderModal = (props: HeaderModalProps) => {
         imageStyle={closeButtonImageStyle}
         onPress={onClose}
       />}
-      <Text>{headerTitle}</Text>
-	  <View style={headerStyle}>{headerTitle}</View>
+      <Text style={headerStyle}>{headerTitle}</Text>
+      <View />
     </View>
   )
 }
