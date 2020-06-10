@@ -52,7 +52,7 @@ const CloseButtonAndroid = (props: CloseButtonProps) => {
         }
         onPress={props.onPress}
       >
-        <View>
+        <View style={{ width: 44, height: 44 }}>
           <Image
             source={closeImage}
             style={[
