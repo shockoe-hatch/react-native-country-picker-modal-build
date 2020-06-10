@@ -72,7 +72,7 @@ const CloseButtonIOS = (props: CloseButtonProps) => {
   if (props.image) {
     closeImage = props.image
   }
-  const { onBackgroundTextColor } = useTheme()
+
   return (
     <View style={[styles.container, props.style]}>
       <TouchableOpacity onPress={props.onPress}>
@@ -81,7 +81,6 @@ const CloseButtonIOS = (props: CloseButtonProps) => {
           style={[
             styles.imageStyle,
             props.imageStyle,
-            { tintColor: onBackgroundTextColor }
           ]}
         />
       </TouchableOpacity>
