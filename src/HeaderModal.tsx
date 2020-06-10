@@ -49,7 +49,7 @@ export const HeaderModal = (props: HeaderModalProps) => {
         onPress={onClose}
       />}
       <Text style={headerStyle}>{headerTitle}</Text>
-      <View style={{ height: 44, width: 44 }}/>
+      <View style={{ height: 44, width: '15%' }}/>
     </View>
   )
 }
