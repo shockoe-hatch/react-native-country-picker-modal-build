@@ -7,7 +7,7 @@ interface HeaderModalProps {
     closeButtonStyle?: StyleProp<ViewStyle>;
     closeButtonImageStyle?: StyleProp<ImageStyle>;
     headerTitle?: string;
-    headerStyle: StyleProp<TextStyle>;
+    headerStyle?: any;
     onClose(): void;
     renderFilter(props: HeaderModalProps): ReactNode;
 }
