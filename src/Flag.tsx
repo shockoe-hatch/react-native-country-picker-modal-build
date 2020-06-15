@@ -39,7 +39,7 @@ interface FlagType {
   countryCode: CountryCode
   withEmoji?: boolean
   withFlagButton?: boolean
-  flagSize: number
+  flagSize?: number
 }
 
 const ImageFlag = memo(({ countryCode, flagSize }: FlagType) => {
